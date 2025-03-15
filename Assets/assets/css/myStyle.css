@@ -1,0 +1,95 @@
+/*Contenedor del buton registrar nuevo*/
+.content__button{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px 0;
+}
+
+/*Icono espaciado*/
+.space__icons{
+  padding-right: 10px;
+}
+
+.btn__create__new{
+  padding: 8px 1.25rem;
+}
+
+.btn__icon{
+  padding: 0;
+  width: calc(1.809375rem + 2px);
+  height: calc(1.809375rem + 2px);
+  display: inline-flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2px;
+}
+.btn__icon2{
+  width: calc(1.809375rem + 2px);
+  height: calc(1.809375rem + 2px);
+  display: inline-flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 0 4px;
+}
+
+.link__icon{
+  color: white;
+  margin: auto;
+  padding-right: 2px !important;
+}
+
+.link__icon:hover{
+  color: white;
+}
+
+.add_data_to_icon{
+  padding-top: 37px;
+  color: #696cff;
+}
+
+.add_data_to_icon:hover{
+  color: #5b5fff;
+  box-shadow: 0px 0.1rem 0rem 0px rgb(105 108 255 / 40%);
+  transition: all 0.2s ease-in-out;
+}
+
+
+#tableSupplierProduct td:first-child{
+  visibility:collapse;
+  display:none;
+}
+
+.card__info__body{
+  display: flex;
+  /*justify-content: space-around;*/
+  flex-wrap: wrap;
+
+}
+
+.content__info__text{
+  display: flex;
+
+}
+
+.info__label{
+  padding-right: 8px;
+  font-weight: bold;
+}
+
+.content__info{
+  width: 32%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
