@@ -5,6 +5,10 @@ class UserController extends Controller {
     public function __construct()
     {
         parent::__construct();
+        if (!isset($_SESSION["user_id"])) {
+            header("Location: " . BASE_URL);
+            exit;
+        }
     }
 
     function index()

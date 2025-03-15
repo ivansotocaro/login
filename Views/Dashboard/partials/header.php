@@ -69,37 +69,23 @@
         <!-- User Menu-->
         <li class="dropdown"><a class="app-nav__item" href="#" data-toggle="dropdown" aria-label="Open Profile Menu"><i class="fa fa-user fa-lg"></i></a>
           <ul class="dropdown-menu settings-menu dropdown-menu-right">
-            <li><a class="dropdown-item" href="page-user.html"><i class="fa fa-cog fa-lg"></i> Settings</a></li>
-            <li><a class="dropdown-item" href="page-user.html"><i class="fa fa-user fa-lg"></i> Profile</a></li>
-            <li><a class="dropdown-item" href="page-login.html"><i class="fa fa-sign-out fa-lg"></i> Logout</a></li>
+            <li><a class="dropdown-item" href="<?php echo BASE_URL; ?>login/logout"><i class="fa fa-sign-out fa-lg"></i> Logout</a></li>
           </ul>
         </li>
       </ul>
     </header>
-
     <!-- Sidebar menu-->
     <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
     <aside class="app-sidebar">
-      <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/48.jpg" alt="User Image">
-        <div>
-          <p class="app-sidebar__user-name">Ivan Doe</p>
-          <p class="app-sidebar__user-designation">Frontend Developer</p>
-        </div>
-      </div>
       <ul class="app-menu">
+        
         <li>
-            <a class="app-menu__item" href="dashboard">
-                <i class="app-menu__icon fa fa-dashboard"></i>
-                <span class="app-menu__label">Dashboard</span>
-            </a>
-        </li>
-
-        <li>
-            <a class="app-menu__item" href="user">
-                <i class="app-menu__icon fa fa-dashboard"></i>
-                <span class="app-menu__label">Usuario</span>
-            </a>
+          <a class="app-menu__item" href="user" style="text-decoration: none;">
+            <i class="app-menu__icon fa fa-dashboard"></i>
+            <span class="app-menu__label">Usuario</span>
+          </a>
         </li>
       </ul>
+      
     </aside>
     <!-- Sidebar menu FINAL-->

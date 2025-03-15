@@ -23,6 +23,9 @@ loginForm.addEventListener("submit", function (e) {
       .then((response) => response.json())
       .then((data) => {
         console.log("Respuesta del servidor:", data);
+        console.log("Redirigiendo a /user");
+        window.location.href = "http://localhost/login/user";
+
       })
       .catch((error) => console.log("Error:", error));
 

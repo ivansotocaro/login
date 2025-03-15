@@ -4,6 +4,8 @@ include_once './Config/Config.php';
 include_once './Libraries/Core/Autoload.php';
 include_once 'Controllers/ErrorsController.php';
 
+session_start();
+
 $url = !empty($_GET['url']) ? $_GET['url'] : 'login/index';
 $url = rtrim($url, '/');
 $url = filter_var($url, FILTER_SANITIZE_URL);

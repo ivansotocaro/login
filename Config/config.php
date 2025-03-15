@@ -1,5 +1,4 @@
 <?php
-
 date_default_timezone_set('America/Bogota');
 
 //URL PROYECT
@@ -22,3 +21,7 @@ const PASS = "adminsoto";
 const DB = "login";
 
 const charset = "charset=utf8";
+
+// deshabilitar advertencias o notices de errores
+ini_set('display_errors', 0);
+error_reporting(0);

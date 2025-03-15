@@ -19,22 +19,18 @@
                 <div class="table-responsive text-nowrap">
                     <div class="card-body">
 
-                        <div class="card-title  mb-4 d-flex justify-content-start" >
-                            <!-- Button trigger modal -->
+                        <!-- <div class="card-title  mb-4 d-flex justify-content-start" >
                             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#createUser">
                               Launch demo modal
                             </button>
-                        </div>
+                        </div> -->
 
                         <table id="tableUser" class="display table-hover dt-responsive" style="width:100%">
                             <thead>
                             <tr>
                                 
-                                <th>Nombre</th>
-                                <th>Username</th>
-                                <th>rol</th>
-                                <th>caja</th>
-                                <th>estado</th>
+                                <th>Email</th>
+                                <th>Fecha</th>
                                 <th>Acción</th>
 
 
@@ -65,7 +61,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-         <form method="post" id="formUser">
+        <form method="post" id="formUser">
 
             <div class="input-group flex-nowrap">
               <span class="input-group-text" id="addon-wrapping">Nombre</span>
