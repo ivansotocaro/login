@@ -16,7 +16,11 @@
       <div class="row">
         <div class="col-md-12">
           <div class="tile">
-            <div class="tile-body">Create a beautiful dashboard</div>
+            <div class="tile-body">
+              <h3>¡Bienvenido a nuestra aplicación!</h3>
+              <p>Disfruta de tu experiencia.</p>
+            </div>
+            
           </div>
         </div>
       </div>

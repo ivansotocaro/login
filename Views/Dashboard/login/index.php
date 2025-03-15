@@ -34,13 +34,14 @@
 
   <!-- Vendors CSS -->
   <link rel="stylesheet" href="<?= BASE_MEDIA?>assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
-
   <!-- Page CSS -->
   <!-- Page -->
   <link rel="stylesheet" href="<?= BASE_MEDIA?>assets/vendor/css/pages/page-auth.css" />
+  <link rel="stylesheet" href="<?= BASE_MEDIA?>holdon/HoldOn.min.css" />
   <!-- Helpers -->
+  
   <script src="<?= BASE_MEDIA?>assets/vendor/js/helpers.js"></script>
-
+  
   <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
   <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
   <script src="<?= BASE_MEDIA?>assets/js/config.js"></script>
@@ -114,6 +115,8 @@
 <!-- Core JS -->
 <!-- build:js assets/vendor/js/core.js -->
 <script src="<?= BASE_MEDIA?>assets/vendor/libs/jquery/jquery.js"></script>
+
+<!-- Y finalmente tu script -->
 <script src="<?= BASE_MEDIA?>assets/vendor/libs/popper/popper.js"></script>
 <script src="<?= BASE_MEDIA?>assets/vendor/js/bootstrap.js"></script>
 <script src="<?= BASE_MEDIA?>assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
@@ -126,7 +129,7 @@
 
 <!-- Main JS -->
 <script src="<?= BASE_MEDIA?>assets/js/main.js"></script>
-
+<script src="<?= BASE_MEDIA?>holdon/HoldOn.min.js"></script>
 <!-- Page JS -->
 <script src="<?= BASE_MEDIA?>assets/js/dashboards-analytics.js"></script>
 

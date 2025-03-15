@@ -13,7 +13,9 @@ loginForm.addEventListener("submit", function (e) {
   e.preventDefault();
 
   if(isValidForm()){
-
+    HoldOn.open({
+      theme: "sk-cube-grid",
+    });
     let formData = new FormData(this);
 
     fetch("login/signIn", {
@@ -22,9 +24,18 @@ loginForm.addEventListener("submit", function (e) {
     })
       .then((response) => response.json())
       .then((data) => {
-        console.log("Respuesta del servidor:", data);
-        console.log("Redirigiendo a /user");
-        window.location.href = "http://localhost/login/user";
+
+        if (data.status === 200) {
+
+          setTimeout(function () {
+            window.location.href = "http://localhost/login/user";
+          }, 2000);
+
+        } else {
+          HoldOn.close();
+          alert(response.message);
+
+        }
 
       })
       .catch((error) => console.log("Error:", error));

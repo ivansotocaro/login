@@ -16,6 +16,11 @@ class UserController extends Controller {
         $this->view->getView("dashboard/user/index");
     }
 
+    function dashboard()
+    {
+        $this->view->getView("dashboard/dashboard");
+    }
+
     public function getUser()
     {
         echo json_encode($this->model->getUser());

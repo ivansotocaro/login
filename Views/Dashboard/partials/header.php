@@ -77,10 +77,18 @@
     <!-- Sidebar menu-->
     <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
     <aside class="app-sidebar">
+
       <ul class="app-menu">
+
+        <li>
+          <a class="app-menu__item" href="<?php echo BASE_URL; ?>user/dashboard" style="text-decoration: none;">
+            <i class="app-menu__icon fa fa-dashboard"></i>
+            <span class="app-menu__label">Home</span>
+          </a>
+        </li>
         
         <li>
-          <a class="app-menu__item" href="user" style="text-decoration: none;">
+          <a class="app-menu__item" href="<?php echo BASE_URL; ?>user" style="text-decoration: none;">
             <i class="app-menu__icon fa fa-dashboard"></i>
             <span class="app-menu__label">Usuario</span>
           </a>
